@@ -16,7 +16,7 @@ def get_data(path):
 
     return data
 #Load Data
-data = get_data('repos/kc_house_data.csv')
+data = get_data('kc_house_data.csv')
 
 #Plot Map
 st.sidebar.title('Displays')
