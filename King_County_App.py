@@ -68,7 +68,7 @@ year_renovated_min = st.sidebar.select_slider("Last Renovation",
 price_limit = st.sidebar.slider("Price Limit",
                                 min_value=0.0,
                                 max_value=data['price'].max(),
-                                value=data['price'].max(),
+                                value=77000000.00,
                                 step=100.0)
 
 
