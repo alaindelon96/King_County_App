@@ -80,7 +80,7 @@ if is_check:
     houses = data[(data['dormitory_type'] == dormitory_option) &
                   (data['bedrooms'] > bedrooms_min) &
                   (data['bathrooms'] > bathrooms_min) &
-                  (data['price'] < price_limit) &
+                  (data['price'] <= price_limit) &
                   (data['condition_status'] == condition_option) &
                   (data['yr_built'] > year_built_min) &
                   (data['yr_renovated'] > year_renovated_min) &
@@ -93,7 +93,7 @@ if is_check1:
     houses = data[(data['dormitory_type'] == dormitory_option) &
                   (data['bedrooms'] > bedrooms_min) &
                   (data['bathrooms'] > bathrooms_min) &
-                  (data['price'] < price_limit) &
+                  (data['price'] <= price_limit) &
                   (data['condition_status'] == condition_option) &
                   (data['yr_built'] > year_built_min) &
                   (data['yr_renovated'] > year_renovated_min) &
